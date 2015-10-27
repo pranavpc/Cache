@@ -45,4 +45,5 @@ script:
     - phpunit -c ./phpunit.xml -v
 
 after_script:
+    - ls
     - php vendor/bin/coveralls -v
